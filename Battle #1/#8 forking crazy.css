@@ -1,0 +1,77 @@
+<div class="base"></div>
+<div class="center"></div>
+<div class="fork one"></div>
+<div class="fork two"></div>
+<div class="fork three"></div>
+<div class="fork four"></div>
+<div class="gap gone"></div>
+<div class="gap gtwo"></div>
+<div class="gap gthree"></div>
+<style>
+  body{
+    margin:0px;
+    background:#6592CF;
+  }
+  .base{
+    width:20px;
+    height:51px;
+    background:#060F55;
+    position:absolute;
+    left:190px;
+    bottom:0px;
+  }
+  .center {
+    width: 140px;
+    height: 100px;
+    background: #060F55;
+    border-radius:75px 75px 0 0;
+    transform:rotate(180deg); 
+    position:absolute;
+    left:130px;
+    bottom:50px;  
+  }
+  .fork{
+    width:20px;
+    height:100px;
+    background:#060F55;
+    position:absolute;
+    border-radius:100px 100px 0 0;
+  }
+  .one{
+    top:50px;
+    left:130px;
+  }
+  .two{
+    top:50px;
+    left:170px;
+  }
+  .three{
+    top:50px;
+    left:210px;
+  }
+  .four{
+    top:50px;
+    left:250px;
+  }
+  .gap{ 
+    width:20px;
+    height:10px;
+    background:#6592CF;
+    position:absolute;
+    border-radius:100px 100px 0 0;
+    transform:rotate(180deg);
+    
+  }
+  .gone{
+    left:150px;
+    top:150px;
+  }
+  .gtwo{
+    left:190px;
+    top:150px;
+  }
+  .gthree{
+    left:230px;
+    top:150px;
+  }
+</style>
