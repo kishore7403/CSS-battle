@@ -1,0 +1,106 @@
+<div class="left-base"></div>
+<div class="left-out-circle"></div>
+<div class="left-in-circle"></div>
+<div class="mid-base"></div>
+<div class="mid-out-circle"></div>
+<div class="mid-in-circle"></div>
+<div class="right-base"></div>
+<div class="right-out-circle"></div>
+<div class="right-in-circle"></div>
+<style>
+  body{
+    margin:0px;
+    background:#62306D;
+  }
+  .left-base {
+    width: 100px;
+    height: 150px;
+    background: #F7EC7D;
+    border-radius:100px 100px 0 0;
+    position: absolute;
+    left:50px;
+    bottom:0px;
+    z-index:-3;
+  }
+  .left-out-circle{
+    width:100px;
+    height:100px;
+    background:#AA445F;
+    border-radius:50%;
+    position:absolute;
+    left:50px;
+    bottom:50px;
+    z-index:-2;
+  }
+  .left-in-circle{
+    width:60px;
+    height:60px;
+    background:#E38F66;
+    border-radius:50%;
+    position:absolute;
+    left:70px;
+    bottom:70px;
+    z-index:-1;
+  }
+  .mid-base{
+    width: 100px;
+    height: 250px;
+    background: #F7EC7D;
+    border-radius:100px 100px 0 0;
+    position: absolute;
+    left:150px;
+    bottom:0px;
+    z-index:-3;
+    
+  }
+  .mid-out-circle{
+    width:100px;
+    height:100px;
+    background:#E38F66;
+    border-radius:50%;
+    position:absolute;
+    left:150px;
+    bottom:150px;
+    z-index:-2;
+  }
+  .mid-in-circle{
+    width:60px;
+    height:60px;
+    background:#AA445F;
+    border-radius:50%;
+    position:absolute;
+    right:170px;
+    bottom:170px;
+    z-index:-1;
+  }
+  .right-base {
+    width: 100px;
+    height: 150px;
+    background: #F7EC7D;
+    border-radius:100px 100px 0 0;
+    position: absolute;
+    right:50px;
+    bottom:0px;
+    z-index:-3;
+  }
+  .right-out-circle{
+    width:100px;
+    height:100px;
+    background:#AA445F;
+    border-radius:50%;
+    position:absolute;
+    right:50px;
+    bottom:50px;
+    z-index:-2;
+  }
+  .right-in-circle{
+    width:60px;
+    height:60px;
+    background:#E38F66;
+    border-radius:50%;
+    position:absolute;
+    right:70px;
+    bottom:70px;
+    z-index:-1;
+  }
+</style>
