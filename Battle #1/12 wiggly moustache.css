@@ -1,0 +1,82 @@
+<div class="semi-out left-out"></div>
+<div class="semi-in left-in"></div>
+<div class="mid-out"></div>
+<div class="mid-in"></div>
+<div class="cap cleft"></div>
+<div class="cap cright"></div>
+<div class="semi-out right-out"></div>
+<div class="semi-in right-in"></div>
+
+<style>
+  body{
+    margin:0px;
+    background:#F5D6B4;
+  }
+  .mid-out{
+    width: 100px;
+    height: 50px;
+    border-radius:150px 150px 0 0;
+    background: #D86F45;
+    position:absolute;
+    left:150px;
+    top:100px;
+  }
+  .mid-in{
+    width: 60px;
+    height: 30px;
+    border-radius:150px 150px 0 0;
+    background:#F5D6B4;
+    position:absolute;
+    left:170px;
+    top:120px;
+  }
+  .cap{
+    width:20px;
+    height:10px;
+    background:#D86F45;
+    border-radius:100px 100px 0 0;
+    position:absolute;
+  }
+  .cleft{
+    left:70px;
+    top:140px;
+  }
+   .cright{
+    right:70px;
+    top:140
+  }
+  .semi-out{
+    width: 100px;
+    height: 50px;
+    border-radius:150px 150px 0 0;
+    background: #D86F45;
+    position:absolute; 
+  }
+  .left-out{
+    left:70px;
+    bottom:100px;
+    transform:rotate(180deg);
+  }
+  .right-out{
+    right:70px;
+    bottom:100px;
+    transform:rotate(180deg);
+  }
+   .semi-in{
+    width: 60px;
+    height: 30px;
+    border-radius:150px 150px 0 0;
+    background: #F5D6B4;
+    position:absolute; 
+  }
+  .left-in{
+    left:90px;
+    bottom:120px;
+    transform:rotate(180deg);
+  }
+  .right-in{
+    right:90px;
+    bottom:120px;
+    transform:rotate(180deg);
+  }
+</style>
