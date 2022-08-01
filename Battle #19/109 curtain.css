@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+</div>
+<div class="container">
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+</div>
+<div class="container">
+  <div class="circle"></div>
+  <div class="circle"></div>
+</div>
+<div class="container">
+  <div class="circle"></div>
+</div>
+<style>
+  body{
+    margin:0px;
+    background:#191919;
+  }
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background:#F6E59C;
+   	margin-left:20px;
+    margin-top:20px;
+  }
+  .container{
+    display:flex;
+  }
+</style>
