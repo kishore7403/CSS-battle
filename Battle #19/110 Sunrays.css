@@ -1,0 +1,52 @@
+<div class="bar zero"></div>
+<div class="bar one"></div>
+<div class="bar two"></div>
+<div class="bar three"></div>
+<div class="bar four"></div>
+<div class="bar five"></div>
+<div class="bar six"></div>
+<style>
+  body{
+    background:#D25B70;
+  }
+  .bar {
+    width: 100px;
+    height: 10px;
+    background: #F2E09F;
+    border-radius:100px;
+    position:absolute;
+  }
+  .zero{
+    bottom:95px;
+    left:80px;
+  }
+  .one{
+    bottom:130px;
+    left:90px;
+    transform:rotate(30deg);
+  }
+  .two{
+    bottom:155px;
+    left:115px;
+    transform:rotate(60deg);
+  }
+  .three{
+    bottom:165px;
+    left:150px;
+    transform:rotate(90deg);
+  }
+  .four{
+    bottom:155px;
+    left:185px;
+    transform:rotate(120deg);
+  }
+  .five{
+    bottom:130px;
+    right:90px;
+    transform:rotate(150deg);
+  }
+  .six{
+    bottom:95px;
+    right:80px;
+  }
+</style>
