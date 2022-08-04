@@ -1,0 +1,47 @@
+<div class="left-pad"></div>
+<div class="right-pad"></div>
+<div class="connector"></div>
+<div class="air-gap"></div>
+<style>
+  body{
+    margin:0px;
+    background:#293D7E;
+  }
+  .left-pad {
+    width: 60px;
+    height: 80px;
+    background: #6E91CA;
+	border-radius:0 60px 100px 100px;
+    position:absolute;
+    bottom:55px;
+    left: 115px;
+  }
+  .right-pad {
+    width: 60px;
+    height: 80px;
+    background: #6E91CA;
+	border-radius:60px 0px 100px 100px;
+    position:absolute;
+    bottom:55px;
+    right: 115px;
+  }
+  .connector{
+    width: 170px;
+    height: 120px;
+    background: #6E91CA;
+     position:absolute;
+    border-radius:100px 100px 0 0;
+    left:115px;
+    bottom:135px;
+  }
+  .air-gap{
+     width: 130px;
+    height: 100px;
+    background: #293D7E;
+     position:absolute;
+    border-radius:100px 100px 0 0;
+    left:135px;
+    bottom:135px;
+  }
+  
+</style>
