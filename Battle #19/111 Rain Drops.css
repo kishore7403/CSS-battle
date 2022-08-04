@@ -1,0 +1,32 @@
+<div class="shape one"></div>
+<div class="shape two"></div>
+<div class="shape three"></div>
+<style>
+  body{
+    margin:0px;
+    background:#F3AC3C;
+  }
+  .shape {
+    width: 80px;
+    height: 80px;
+    background: #dd6b4d;
+    border-radius:50% 50% 0; 
+    background:#254241;
+    position:absolute;
+  }
+  .one{
+    transform:rotate(45deg);
+    top:40px;
+    left:160;
+  }
+  .two{
+    transform:rotate(-45deg);
+    top:110px;
+    left:80px;
+  }
+  .Three{
+    transform:rotate(-135deg);
+    bottom:40px;
+    left:160;
+  }
+</style>
