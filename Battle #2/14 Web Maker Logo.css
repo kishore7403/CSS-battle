@@ -1,0 +1,38 @@
+<div class="triangle leftback"></div>
+<div class="triangle left"></div>
+<div class="triangle rightback"></div>
+<div class="triangle right"></div>
+<style>
+  body{
+    margin:0px;
+    background:#F2F2B6;
+  }
+  .triangle {
+    width: 0px;
+    height: 0px;
+    border:75px solid transparent;
+    position:absolute;
+  }
+  .left{
+    border-top:130px solid #FF6D00;
+    left:60px;
+    top:85px;
+  }
+  .leftback{
+    border-top:130px solid #FD4602;
+    left:80px;
+    top:85px;
+  }
+  .right{
+    border-top:130px solid #FD4602;
+    right:80px;
+    bottom:85px;
+    transform:rotate(180deg);
+  }
+  .rightback{
+     border-top:130px solid #FF6D00;
+    right:60px;
+    bottom:85px;
+    transform:rotate(180deg);
+  }
+</style>
