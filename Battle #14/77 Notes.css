@@ -1,0 +1,86 @@
+<div class="shape one"></div>
+<div class="shape two"></div>
+<div class="shape three"></div>
+<div class="shape four"></div>
+<div class="ver-stick vone"></div>
+<div class="ver-stick vtwo"></div>
+<div class="ver-stick vthree"></div>
+<div class="ver-stick vfour"></div>
+<div class="hor-stick hone"></div>
+<div class="hor-stick htwo"></div>
+<div class="hor-stick hthree"></div>
+<div class="hor-stick hfour"></div>
+<style>
+  body{
+    margin:0px;
+    background:#191919;
+  }
+  .shape {
+    width: 50px;
+    height: 40px;
+    position:absolute;
+    border-radius:50%;
+    background: #FE5F55;
+    top:170px;
+  }
+  .one{
+    left: 55px;
+  }
+  .two{
+    left: 125px;
+  }
+  .three{
+    background:#A64942;
+    left: 195px; 
+  }
+  .four{
+    left: 265px;
+  }
+  .ver-stick{
+    width:10px;
+    height:100px;
+    background:#FE5F55;
+    position:absolute;
+    bottom:110px;
+  }
+  .vone{
+    left:95px;
+    
+  }
+  .vtwo{
+    left:165px;
+  }
+  .vthree{
+    background:#A64942;
+    left:235px;
+  }
+  .vfour{
+    left:305px;
+  }
+  .hor-stick{
+    width:35px;
+    height:10px;
+    background:#FE5F55;
+    position:absolute;
+    
+  }
+  .hone{
+    width:70px;
+    top:90px;
+    left:100px;
+  }
+  .htwo{
+    background:#A64942;
+    top:90px;
+    left:240px;
+  }
+  .hthree{
+    top:90px;
+    left:310px;
+  }
+  .hfour{
+    top:110px;
+    left:310px;
+  }
+  
+</style>
