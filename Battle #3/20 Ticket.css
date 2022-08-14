@@ -1,0 +1,64 @@
+<div class="ticket"></div>
+<div class="punch-corner one"></div>
+<div class="punch-corner two"></div>
+<div class="punch-corner three"></div>
+<div class="punch-corner four"></div>
+<div class="punch-mid top"></div>
+<div class="punch-mid bottom"></div>
+<style>
+  body{
+    margin:0px;
+    background:#62306D;
+  }
+   .ticket{
+    width: 140px;
+    height: 100px;
+    background: #F7EC7D;
+    border-right:60px solid #E38F66;
+    position:absolute;
+    left:100px;
+    top:100px;
+
+  }
+  .punch-corner{
+    width:40px;
+    height:20px;
+    border-radius:0 0 100px 100px;
+    background:#62306D;
+    position:absolute;
+  }
+  .one{
+    left:80px;
+    top:100px;
+  }
+  .two{
+    right:80px;
+    top:100px;
+  }
+  .three{
+    transform:rotate(180deg);
+    left:80px;
+    bottom:100px;
+  }
+  .four{
+    transform:rotate(180deg);
+    right:80px;
+    bottom:100px;
+  }
+  .punch-mid{
+    width:20px;
+    height:10px;
+    border-radius:0 0 100px 100px;
+    background:#62306D;
+    position:absolute;
+  }
+  .top{
+    left:230px;
+    top:100px;
+  }
+  .bottom{
+    transform:rotate(180deg);
+    left:230px;
+    bottom:99px;
+  }
+</style>
