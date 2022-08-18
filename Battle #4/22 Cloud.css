@@ -1,0 +1,33 @@
+<div class="circle one"></div>
+<div class="circle two"></div>
+<div class="base"></div>
+<style>
+  body{
+    margin:0px;
+    background:#F5D6B4;
+  }
+  .circle{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background:#D86F45;
+    position:absolute;
+  }
+  .one{
+    left:100px;
+    top:115px
+  }
+  .two{
+    left:180px;
+    top:85px
+  }
+  .base {
+    width: 180px;
+    height: 50px;
+    border-radius:50px;
+    background: #D86F45;
+    position:absolute;
+    left:120px;
+    top:165px;
+  }
+</style>
