@@ -1,0 +1,52 @@
+<div class=lk1></div>
+<div class=lk2></div>
+<div class=lb1></div>
+<div class=lb2></div>
+ 
+<style>
+  body{
+    background:#222;
+  }
+  .lk1 {
+    width: 30px;
+    height: 100px;
+    background: #F2994A;
+    transform:rotate(45deg);
+    position:absolute;
+    border-radius:0 0 0 10px;
+    top:58;
+    left:155;
+  }
+ 
+  .lk2 {
+    width: 30px;
+    height: 55px;
+    background:#F2994A;
+    transform:rotate(135deg);
+    position:absolute;
+    border-radius:5px 0 0 0;
+    bottom:113;
+    left:157;
+  }
+ 
+  .lb1 {
+    width: 30px;
+    height: 100px;
+    background: #2D9CDB;
+    transform:rotate(-135deg);
+    position:absolute;
+    border-radius:0 0 0 10px;
+    bottom:58;
+    right:157;
+  }
+  .lb2 {
+    width: 30px;
+    height: 55px;
+    background:#2D9CDB;
+    transform:rotate(-45deg);
+    position:absolute;
+    border-radius:5px 0 0 0;
+    top:113;
+    right:160;
+  }
+</style>
