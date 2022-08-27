@@ -1,0 +1,31 @@
+<div class="smiley one"></div>
+<div class="smiley two"></div>
+<div class="smiley three"></div>
+<style>
+  body{
+    margin:0px;
+    background:#6592CF;
+  }
+  .smiley {
+    width: 80px;
+    height: 40px;
+    border-radius:100px 100px 0 0;
+    border:20px solid #060F55;
+    border-bottom:0px;
+    background: #6592CF;
+    position:absolute;
+  }
+  .one{
+    top:40px;
+    left:40px;  
+  }
+  .two{
+    top:40px;
+    right:40px;  
+  }
+  .three{
+    bottom:40px;
+    transform:rotate(180deg);
+    left:140;
+  }
+</style>
