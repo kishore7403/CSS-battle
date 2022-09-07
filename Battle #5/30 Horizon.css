@@ -1,0 +1,28 @@
+<div class="box one"></div>
+<div class="box two"></div>
+<div class="box three"></div>
+<div class="box four"></div>
+<style>
+  body{
+    margin:0px;
+  }
+  .box {
+    width: 400px;
+  }
+  .one{
+    height:50px;
+    background:#F7EC7D;
+  }
+  .two{
+    height:50px;
+    background:#E38F66;
+  }
+  .three{
+     height:100px;
+    background:#AA445F;
+  }
+  .four{
+    height:100px;
+    background:#62306D;
+  }
+</style>
