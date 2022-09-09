@@ -1,0 +1,35 @@
+<div class="cream"></div>
+<div class="shadow"></div>
+<div class="stick"></div>
+<style>
+  body{
+    margin:0px;
+    background:#293462
+  }
+  .cream {
+    width: 100px;
+    height: 150px;
+    border-radius:50px 50px 20px 20px;
+    background: #FFF1C1;
+    position:absolute;
+    left:150px;
+    top:50px;
+  }
+  .shadow{
+    width:30px;
+    height:10px;
+    background:#A64942;
+    position:absolute;
+    left:185px;
+    bottom:90px;
+  }
+  .stick{
+    width:30px;
+    height:40px;
+    background:#FE5F55;
+    border-radius:0 0 10px 10px;
+    position:absolute;
+    left:185px;
+    bottom:50px;
+  }
+</style>
