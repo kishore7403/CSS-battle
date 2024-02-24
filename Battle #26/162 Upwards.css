@@ -1,0 +1,27 @@
+<div class="shape rectangle"></div>
+<div class="shape square"></div>
+<style>
+  body{
+    margin:0px;
+    background:#998235;
+  }
+  .shape{
+     position:absolute;
+  }
+  .rectangle {
+    width: 70px;
+    height: 140px;
+    background: #0B2429;
+    rotate:45deg;
+    left:140px;
+    top:81px
+  }
+  .square {
+    width: 70px;
+    height: 70px;
+    background: #FCBE5C;
+    rotate:45deg;
+    right:116px;
+    bottom:90px
+  }
+</style>
