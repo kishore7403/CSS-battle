@@ -1,0 +1,17 @@
+<div></div>
+<style>
+  body{
+    background:#62306D;
+  }
+  div {
+    margin-left:92px;
+    margin-top:50px;
+    width: 120px;
+    height: 120px;
+    border: 40px solid #F7EC7D;
+    border-top-color:#E38F66;
+    rotate:-45deg;
+    border-radius:50%;
+    background: #62306D;
+  }
+</style>
