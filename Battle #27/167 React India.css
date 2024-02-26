@@ -1,0 +1,43 @@
+<div class="shape white"></div>
+<div class="shape green"></div>
+<div class="shape orange"></div>
+<div class="shape circle"></div>
+<style>
+  body{
+    margin:0px;
+    background:#0D1335;
+  }
+  .shape{
+    width: 90px;
+    height: 230px;
+    background: transparent;
+    border-radius:50%;
+    position: absolute;
+  }
+  .orange {
+    top:25px;
+    border: 10px solid #DC6638;
+    left:145px;
+    rotate:-30deg;
+  }
+   .green {
+    top:25px;
+    border: 10px solid #4FA07B;
+    left:145px;
+    rotate:30deg;
+  }
+  .white{
+    top:25px;
+    border: 10px solid #FBFAE2;
+    left:145px;
+    rotate:90deg;
+  }
+  .circle{
+    width: 40px;
+    height: 40px;
+    background: #73C6EA;
+    border-radius:50%;
+    left: 180px;
+    top: 130px
+  }
+</style>
