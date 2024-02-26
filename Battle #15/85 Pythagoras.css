@@ -1,0 +1,35 @@
+<div class="square green"></div>
+<div class="square yellow"></div>
+<div class="square white"></div>
+<style>
+  body{
+    margin: 0px;
+    background:#D25B70;
+  }
+  .square {
+    position: absolute;
+  }
+  .white{
+    width:100px;
+    height:100px;
+    background: #F7F3DA;
+    bottom:50px;
+    left:150px;
+  }
+  .green{
+    width:60px;
+    height:60px;
+    background: #6CB3A9;
+    top:78px;
+    left:114px;
+    rotate:37deg;
+  }
+  .yellow{
+    width:80px;
+    height:80px;
+    background: #F6DF96;
+    top:54px;
+    right:118px;
+    rotate:37deg;
+  }
+</style>
