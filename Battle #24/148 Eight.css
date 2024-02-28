@@ -1,0 +1,35 @@
+<div class="shape top"></div>
+<div class="shape bottom"></div>
+<div class="shape filler"></div>
+<style>
+  body{
+    margin:0px;
+    background: #926927;
+  }
+  .shape {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+  }
+
+  .top{
+    background: #926927;
+    border:40px solid #6D480A;
+    border-radius:50%;
+    right:10px;
+    top:-90px;
+  }
+  .bottom{
+    background: #926927;
+    border:40px solid #6D480A;
+    border-radius:50%;
+    top:10px;
+    right:-90px;
+  }
+  .filler{
+    width: 20px;
+    height: 20px;
+    background: #6D480A;
+    right:0px;
+  }
+</style>
