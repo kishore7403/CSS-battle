@@ -1,0 +1,32 @@
+<div class="circle Top"></div>
+<div class="circle Bottom"></div>
+<div class="circle eye"></div>
+<style>
+  body{
+    margin:0PX;
+    background:#E3516E;
+  }
+  .circle{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #D9D9D9;
+  }
+  .eye{
+    width: 100px;
+    height: 100px;
+    border-radius: 0 100px;
+    rotate:-45deg;
+    left:150px;
+    top:100px;
+  }
+  .Top{
+    left: -75px;
+    top: -75px
+  }
+  .Bottom{
+    right: -75px;
+    bottom: -75px
+  }
+</style>
